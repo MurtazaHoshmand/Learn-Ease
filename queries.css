@@ -1,0 +1,291 @@
+/**************************/
+/* BELOW 1215px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 69em) {
+  .header {
+    flex-wrap: wrap;
+  }
+  html {
+    font-size: 56.25%;
+  }
+  .hero-content {
+    grid-template-columns: 55fr 45fr;
+    /* background-color: yellow; */
+  }
+  .hero-img-content {
+    background-size: 75rem;
+  }
+  .text-box3 {
+    height: 10rem;
+  }
+  .text-box4 {
+    height: 8rem;
+    width: 20rem;
+  }
+  .learn-ease-top {
+    text-align: center;
+    padding: 0 3.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 960px (Tablets) */
+/**************************/
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+  .main-nav {
+    display: none;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 0;
+    text-align: center;
+  }
+  .hero-text-content {
+    padding: 3.6rem;
+  }
+  .hero-img-content {
+    height: 60rem;
+    background-size: 98rem;
+    background-position: center;
+  }
+  .text-box2,
+  .text-box1 {
+    height: 12rem;
+  }
+  .text-box3 {
+    height: 15rem;
+    width: auto;
+  }
+  .text-box4 {
+    height: 10rem;
+    width: auto;
+  }
+
+  .feature-img-big {
+    width: 110%;
+  }
+  .feature-img-mid {
+    width: 100%;
+  }
+
+  .margin-right-mid {
+    margin-left: 0;
+  }
+
+  .feature-text-content {
+    padding: 2.4rem;
+  }
+
+  .box {
+    width: 35rem;
+    height: 24rem;
+  }
+
+  .solution {
+    padding: 2rem 2rem;
+    width: 50;
+  }
+
+  .learn-ease-box-title {
+    font-size: 2.6rem;
+  }
+  .bottom-img-content {
+    padding: 2rem;
+    max-width: 72%;
+  }
+  .bottom-text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .bottom-name {
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+  }
+
+  .primary-header {
+    font-size: 4.8rem;
+  }
+
+  .footer-content {
+    padding: 0 4rem;
+  }
+  .email-entry {
+    margin: 2rem auto;
+  }
+}
+/**************************/
+/* BELOW 750px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 47em) {
+  .feature-img-big {
+    width: 100%;
+  }
+  .news-content {
+    grid-template-columns: 1fr;
+  }
+  /* .solutions {
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 0;
+    row-gap: 5rem;
+  }
+  .solution:first-child{
+    grid-column: 1/4;
+  }
+  .solution:nth-child(2){
+    grid-column: 5/-1;
+  }
+  .solution:last-child{
+    grid-column: 3/6;
+  } */
+
+  .box {
+    width: 28rem;
+    height: 22rem;
+  }
+
+  .learn-ease-bottom {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+  .learn-ease-box-title {
+    font-size: 2.2rem;
+  }
+
+  .featured-in-logo {
+    height: 3rem;
+  }
+  .bottom-text {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  .bottom-name {
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+  }
+
+  .text-box2,
+  .text-box1 {
+    height: 10rem;
+  }
+  .text-box3 {
+    height: 12rem;
+    width: auto;
+  }
+  .text-box4 {
+    height: 8rem;
+    width: auto;
+  }
+}
+
+/**************************/
+/* BELOW 600px (Phones) */
+/**************************/
+
+@media (max-width: 38em) {
+  .grid-2-c,
+  .grid-2-c-d,
+  .grid-3-c {
+    grid-template-columns: 1fr;
+  }
+  .hero-img-content {
+    gap: 0;
+  }
+  .text-box1,
+  .text-box3 {
+    justify-self: start;
+  }
+  .box {
+    width: 35rem;
+    height: 24rem;
+  }
+
+  .learn-ease-box-title {
+    font-size: 3rem;
+  }
+
+  .text-box2,
+  .text-box4 {
+    justify-self: end;
+  }
+  .solution {
+    width: 60%;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+  .featured-in-logo {
+    height: 2rem;
+  }
+  .box,
+  .learn-ease-bottom-image {
+    margin: 0 auto;
+  }
+  .feature-img,
+  .feature-img-big,
+  .feature-img-mid,
+  .feature-img-content,
+  .learn-ease-bottom {
+    width: 90%;
+    justify-self: center;
+  }
+
+  .feature-img-content:nth-child(1) {
+    grid-row: 2;
+  }
+  .feature-img-content:nth-child(5) {
+    grid-row: 6;
+  }
+  .feature-img-content:nth-child(8) {
+    grid-row: 10;
+  }
+  .more-img-content:first-child {
+    padding: 3.6rem;
+    grid-row: 2;
+  }
+  .bottom-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+
+  .bottom-name {
+    font-size: 2rem;
+    margin-top: 1.6rem;
+  }
+
+  .news-img:first-child {
+    width: 94%;
+  }
+  .primary-header {
+    font-size: 3.6rem;
+  }
+  .hero-img-content {
+    height: 45rem;
+    background-size: 70rem;
+  }
+
+  .text-box2,
+  .text-box1 {
+    height: 8rem;
+  }
+  .text-box3 {
+    height: 10rem;
+    width: auto;
+  }
+  .text-box4 {
+    height: 7rem;
+    width: auto;
+  }
+  .news-main-title {
+    margin-top: 6.4rem;
+  }
+}
